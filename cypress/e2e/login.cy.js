@@ -36,8 +36,8 @@ describe('template spec', () => {
   }) 
 
   it('Fill Correct Phonenumber and password', () => {
-    cy.get('[id="standard-basic"]').first().type('0359579079').should('have.value', '0359579079');
-    cy.get('[id="standard-adornment-password"]').first().type('Long1602').should('have.value', 'Long1602');
+    cy.get('[id="standard-basic"]').first().type('0901603859').should('have.value', '0901603859');
+    cy.get('[id="standard-adornment-password"]').first().type('Doloi123').should('have.value', 'Doloi123');
     // Use .first() to select the first matching input element
     cy.get('[class="jss8"]').click();
     cy.get('[testid="LOGIN_BUTTON"]').click();
